@@ -25,3 +25,131 @@ body {
         display: inline-block; }
     body header .navigation .pull-left i {
       margin-right: 7px; }
+
+
+
+
+.footer {
+ background: #151515;
+ padding: 86px 0px 80px 0px;
+}
+
+.widget h2 {
+ cursor:pointer;  
+ font-size:21px;
+ font-weight:bold;
+ padding-bottom:5px;
+}
+ 
+.nav-footer > ul > li {
+    display: inline-block;
+}
+
+.footer-widgets .widget.widget-brand p {    
+    margin-top: 20px;
+    letter-spacing: -0.15px;
+}
+
+.footer-widgets p {
+    line-height: 21px;
+}
+
+.footer-widgets .widget-title {
+line-height: 48px;
+text-transform: none;
+color: #fff;
+font-weight: 300;
+margin-bottom: 8px;
+}
+
+.flat-social.style2 a {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: #212121;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 1.5px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-widgets .widget.widget-twitter p span {
+    position: relative;
+    color: #fff;
+}
+
+.footer-widgets .widget.widget-twitter {
+    padding-left: 1.5px;
+}
+
+.footer-widgets .widget.widget-instagram {
+    margin-left: -3px;
+}
+
+.footer-widgets .widget.widget-instagram ul li {
+    display: inline-block;
+    padding: 0px 7px 0px 0px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.instagram-list {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-widgets .widget.widget-subscribe-us .form-subscribe .legend {
+    line-height: 40px;
+    color: #fff;
+    letter-spacing: -0.25px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+    display: block;
+    width: 100%;
+    background: #212121;
+    font-family: "Arial";
+    font-size: 14px;
+    line-height: 39px;
+    padding: 0px 10px 0px 10px;
+    letter-spacing: 0.2px;
+    color: #989696;
+    border-radius: 3px;
+    border: 1px solid #212121;
+}
+
+.footer-widgets .widget.widget-subscribe-us .form-subscribe .subscribe-submit {
+    background: transparent;
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+}
+
+.footer-bottom {
+width: 100%;
+background: #0a0a0a;
+padding: 22px 0px 21px 8px; 
+}
+
+.footer-bottom p {
+line-height: normal;
+color: #868686;
+font-weight: 400;
+letter-spacing: 0.15px;
+}
+
+.footer-bottom p a{
+color: #2bd383;
+}
+
+.footer-bottom p a:hover{
+color: #868686;
+transition: 0.5s;
+}
+
+
+
