@@ -297,4 +297,61 @@ body{
 		}
 	}
 
+	.row-about {
+    padding: 100px 0px 130px 0px;
+    border-bottom: 1px solid #f2f2f2;
+
+	    .title-section .title {
+	    font-size: 36px;
+	    line-height: 48px;
+	    color: #1a1e1a;
+	    font-weight: 500;
+	    letter-spacing: 1px;
+		}
+
+		.divider.h35 {
+	    height: 35px;
+		}
+
+		.flat-about .content-about, .flat-about .featured-about {
+		position: relative;
+		float: left;
+		padding: 0px 15px;
+		width: 50%;
+		}
+    
+	    .title {
+	    line-height: normal;
+	    letter-spacing: 9.8px;
+	    color: #1a1e1a;
+	    margin: 0px 0px 22px 2px;
+	    font-weight:600;
+	    font-size:14px;
+		}
+
+		p {
+	    line-height: 24px;
+	    margin-bottom: 24px;
+	    font-size:14px;
+	    font-weight:100;
+		}
+		
+		.featured-about{
+			position:relative;
+			width:50%;
+			padding:0px 15px;
+			float:left;
+		}	
+
+	}
+
+	
+	.flat-row{ 
+	.row-choose-us {
+		padding: 100px 0px 109px 0px;
+		
+	}
+}
+
+
 }
