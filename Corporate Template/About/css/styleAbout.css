@@ -229,7 +229,7 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 0;
+    background-position: 50% 0%;
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -240,7 +240,9 @@ body {
 }
 
 .parallax-page {
-    background-image: url(../images/parallax/parallax-page.jpg);
+    background-image: url(../images/parallax/parallax-page.jpg); 
+    background-size: auto;   
+  
 }
 
 .page-title .overlay {
@@ -293,3 +295,60 @@ body {
 .divider.h11 {
     height: 11px;
 }
+
+.welcome-content p{
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin-bottom: 27px;
+  line-height: 28px;
+}
+
+.divider.h25 {
+  height: 25px;
+}
+
+
+.flat-awards {
+    overflow: hidden;
+    padding: 0;
+    list-style: none;
+}
+
+
+.flat-awards li.awards {
+    float: left;
+    width: 33.33%;
+    background-color: #393939;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.flat-awards .awards .box-awards {
+    padding: 35px 0px 33px 0px;
+}
+
+.paddingbottom_54 {
+    padding-bottom: 54px;
+}
+
+.flat-awards .awards .awards-icon {
+    margin-bottom: 6px;
+}
+
+.flat-awards .awards .awards-icon i {
+    font-size: 55px;
+    line-height: normal;
+    color: #2bd383;
+}
+
+.flat-awards .awards .title-awards {
+    line-height: 22px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+
